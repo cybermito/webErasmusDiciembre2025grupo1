@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera web - Semántica</title>
+    <!--Estilos CSS en el mismo archivo html-->
+    <!--
+    <style>
+      h1 {
+        background-color: red;
+        font-size: 3em;
+      }
+      p {
+        font-family: monospace;
+        font-style: italic;
+      }
+    </style>
+    -->
+    <!-- Enlazando archivo css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <figure>
+        <img src="img/Atibot-Logo-512.png" alt="logo de la web" />
+      </figure>
+      <nav id="menu-principal">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#blog">Blog</a>
+          </li>
+          <li>
+            <a href="#contact">Contactar</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="menu-principal">
+      <section id="hero">
+        <figure id="background-hero">
+          <img
+            src="https://images.pexels.com/photos/3094225/pexels-photo-3094225.jpeg"
+            alt="Chica maker"
+            width="300px"
+          />
+        </figure>
+        <div id="text-hero">
+          <!-- Estilos en línea
+          <h1 style="background: red; font-size: 3em">Estilos en línea</h1>
+        -->
+          <h1>Mi primera web</h1>
+          <h2>Si puedes imaginarlo y soñarlo, puedes crearlo y programarlo</h2>
+          <p>by cybermito</p>
+        </div>
+      </section>
+      <!-- Sección para el blog del sitio web -->
+      <section id="blog">
+        <h2>Blog</h2>
+        <article class="blog-post">
+          <h4>Noticia 1</h4>
+          <figure class="img-post">
+            <img
+              src="https://images.pexels.com/photos/7868838/pexels-photo-7868838.jpeg"
+              alt="Maker montando un robot"
+              width="200px"
+            />
+          </figure>
+          <div class="text-post">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
+              repellendus repellat illo blanditiis eum maxime tenetur optio in
+              sequi dolorem illum vel ea, nobis facere nisi vitae assumenda sit
+              incidunt.
+            </p>
+          </div>
+        </article>
+        <article class="blog-post">
+          <h3>Noticia 2</h3>
+          <figure class="img-post">
+            <img
+              src="https://images.pexels.com/photos/7869033/pexels-photo-7869033.jpeg"
+              alt="Maker montando un robot"
+              width="200px"
+            />
+          </figure>
+          <div class="text-post">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
+              repellendus repellat illo blanditiis eum maxime tenetur optio in
+              sequi dolorem illum vel ea, nobis facere nisi vitae assumenda sit
+              incidunt.
+            </p>
+          </div>
+        </article>
+        <article class="blog-post">
+          <h4>Noticia 3</h4>
+          <figure class="img-post">
+            <img
+              src="https://images.pexels.com/photos/7869137/pexels-photo-7869137.jpeg"
+              alt="Maker montando un robot"
+              width="200px"
+            />
+          </figure>
+          <div class="text-post">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
+              repellendus repellat illo blanditiis eum maxime tenetur optio in
+              sequi dolorem illum vel ea, nobis facere nisi vitae assumenda sit
+              incidunt.
+            </p>
+          </div>
+        </article>
+        <article class="blog-post">
+          <h4>Noticia 4</h4>
+          <figure class="img-post">
+            <img
+              src="https://images.pexels.com/photos/7869085/pexels-photo-7869085.jpeg"
+              alt="Maker montando un robot"
+              width="200px"
+            />
+          </figure>
+          <div class="text-post">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
+              repellendus repellat illo blanditiis eum maxime tenetur optio in
+              sequi dolorem illum vel ea, nobis facere nisi vitae assumenda sit
+              incidunt.
+            </p>
+          </div>
+        </article>
+      </section>
+      <!--Sección contacto-->
+      <section id="contact">
+        <h2>Contactar</h2>
+        <form action="contact-form.js" method="post">
+          <label for="name">Nombre: </label>
+          <input type="text" id="name" name="name" />
+
+          <label for="email">Correo Electrónico: </label>
+          <input type="email" id="email" name="email" />
+
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar datos</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div id="social-media">
+        <h2>Redes Sociales</h2>
+        <ul>
+          <li>
+            <a href="#">Github</a>
+          </li>
+          <li>
+            <a href="#">Instagram</a>
+          </li>
+          <li>
+            <a href="#">TikTok</a>
+          </li>
+          <li>
+            <a href="#">Youtube</a>
+          </li>
+        </ul>
+      </div>
+      <div id="copyright">
+        <p>Creado por @Atigramaker & @cybermito con 💜</p>
+        <figure>
+          <img
+            src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png"
+            alt="Creative Commons logo"
+          />
+        </figure>
+        <p>Licencia Creative Commons</p>
+      </div>
+    </footer>
+  </body>
+</html>

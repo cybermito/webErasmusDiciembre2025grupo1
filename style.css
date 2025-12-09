@@ -1,0 +1,58 @@
+/* Comentarios en CSS */
+/* Estilos en cascada, se aplica el último.
+h1 {
+  background-color: red;
+  font-size: 3em;
+}
+
+h1 {
+  background-color: lightsalmon;
+}
+*/
+/* Selector universal, aplica estilos a todos los elementos*/
+/*
+* {
+  background: red;
+}
+*/
+html {
+  font-family: monospace;
+  font-size: 18px;
+}
+body {
+  background: black;
+  color: greenyellow;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+h2 {
+  background: greenyellow;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: greenyellow;
+}
+
+header {
+  width: 100%;
+}
+
+header figure {
+  width: 20%;
+  margin: 0 auto;
+}
+
+header figure img {
+  width: 80px;
+}
+
+header ul {
+  width: 80%;
+  list-style: none;
+  text-align: center;
+}
